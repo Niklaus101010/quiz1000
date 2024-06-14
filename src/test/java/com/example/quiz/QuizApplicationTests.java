@@ -47,4 +47,11 @@ class QuizApplicationTests {
 		String[] arr = str.split("");
 		System.out.println(arr);
 	}
+	
+	@Test
+	public void test4() {
+		String str = "AABBBCDEAACCDDD";
+		String[] arr = str.split("A");
+		System.out.println(arr);
+	}
 }
