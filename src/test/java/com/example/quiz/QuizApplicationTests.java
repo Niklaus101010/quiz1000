@@ -40,4 +40,11 @@ class QuizApplicationTests {
 		System.out.println(map);
 
 	}
+	
+	@Test
+	public void test3() {
+		String str = "AABBBCDDAEEEAACCDDD";
+		String[] arr = str.split("");
+		System.out.println(arr);
+	}
 }
